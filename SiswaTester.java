@@ -5,11 +5,13 @@ public class SiswaTester {
         //membuat object
         //namaClass namaObject = new
         // Constructor
+
         Siswa raffi = new Siswa();
         Siswa zaky = new Siswa();
         Siswa angga = new Siswa();
         Siswa rama = new Siswa();
         Siswa samid = new Siswa();
+        Siswa dewa = new Siswa(14, "dewa", 80);
     
         raffi.id = 8;
         raffi.nama = "Muhammad Raffi";
@@ -36,6 +38,8 @@ public class SiswaTester {
         rama.print();
         System.out.println("----------------");
         samid.print();
+        System.out.println("----------------");
+        dewa.print();
         System.out.println("----------------");
 
         
